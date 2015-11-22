@@ -1,0 +1,1 @@
+To use this module you must set the bluebird library as the default promise library in your `server.js`: `global.Promise = require('bluebird');`

@@ -1,13 +1,17 @@
 {
   "name": "loopback-boot-utils",
-  "version": "1.0.0",
-  "description": "Generic utility methods that can be used when populating seed data in loopback boot scripts. To use this module you must set the bluebird library as the default promise library in your `server.js` ... `global.Promise = require('bluebird');`",
+  "version": "1.0.1",
+  "description": "Generic utility methods that can be used when populating seed data in loopback boot scripts.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pulkitsinghal@gmail.com",
   "license": "Apache2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShoppinPal/loopback-boot-utils"
+  },
   "dependencies": {
     "debug": "2.2.0"
   }
