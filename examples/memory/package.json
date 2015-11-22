@@ -1,0 +1,30 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "scripts": {
+    "pretest": "jshint ."
+  },
+  "dependencies": {
+    "bluebird": "3.0.5",
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "debug": "2.2.0",
+    "loopback": "^2.22.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-boot-utils": "*",
+    "loopback-component-explorer": "^2.1.0",
+    "loopback-datasource-juggler": "^2.39.0",
+    "multi-tenant-loopback-example": "*",
+    "serve-favicon": "^2.0.1",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "description": "examples"
+}

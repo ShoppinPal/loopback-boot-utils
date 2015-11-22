@@ -1,0 +1,38 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 8,
+    "Role": 4,
+    "UserModel": 8
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {
+      "1": "{\"principalType\":\"USER\",\"principalId\":\"1\",\"roleId\":1,\"id\":1}",
+      "2": "{\"principalType\":\"USER\",\"principalId\":\"2\",\"roleId\":2,\"id\":2}",
+      "3": "{\"principalType\":\"USER\",\"principalId\":\"3\",\"roleId\":3,\"id\":3}",
+      "4": "{\"principalType\":\"USER\",\"principalId\":\"4\",\"roleId\":3,\"id\":4}",
+      "5": "{\"principalType\":\"USER\",\"principalId\":\"5\",\"roleId\":2,\"id\":5}",
+      "6": "{\"principalType\":\"USER\",\"principalId\":\"6\",\"roleId\":3,\"id\":6}",
+      "7": "{\"principalType\":\"USER\",\"principalId\":\"7\",\"roleId\":3,\"id\":7}"
+    },
+    "Role": {
+      "1": "{\"name\":\"sysAdmin\",\"created\":\"2015-11-22T22:02:49.947Z\",\"modified\":\"2015-11-22T22:02:49.947Z\",\"id\":1}",
+      "2": "{\"name\":\"orgAdmin\",\"created\":\"2015-11-22T22:02:50.224Z\",\"modified\":\"2015-11-22T22:02:50.224Z\",\"id\":2}",
+      "3": "{\"name\":\"storeAdmin\",\"created\":\"2015-11-22T22:02:50.484Z\",\"modified\":\"2015-11-22T22:02:50.484Z\",\"id\":3}"
+    },
+    "UserModel": {
+      "1": "{\"username\":\"sysAdmin@shoppinpal.com\",\"password\":\"$2a$10$hbaHn5eHy/PRWVU8K6gG0.WWIgFxPSDwAz2wKoHb/.sCMdCEr63F6\",\"email\":\"sysAdmin@shoppinpal.com\",\"seedWithRole\":\"sysAdmin\",\"id\":1}",
+      "2": "{\"username\":\"orgAdminA@orgA.com\",\"password\":\"$2a$10$SEuf3EVmiwDHM0.1fjI1Tud9GbilAV85YTByS8.AnCnxMzNfqzuSe\",\"email\":\"orgAdminA@orgA.com\",\"seedWithRole\":\"orgAdmin\",\"id\":2}",
+      "3": "{\"username\":\"storeAdminA1@orgA.com\",\"password\":\"$2a$10$p4VAP21tN.ddpYHWiHIDA.4zW1nb8D7/z41LvrSlWCELqnficGwJS\",\"email\":\"storeAdminA1@orgA.com\",\"seedWithRole\":\"storeAdmin\",\"id\":3}",
+      "4": "{\"username\":\"storeAdminA2@orgA.com\",\"password\":\"$2a$10$eKszLUoYNBStFyGRjtYjful4jpkgF61qd0FjABx1NM1t2PTfDWsDy\",\"email\":\"storeAdminA2@orgA.com\",\"seedWithRole\":\"storeAdmin\",\"id\":4}",
+      "5": "{\"username\":\"orgAdminB@orgB.com\",\"password\":\"$2a$10$UD7z.oLq7Z1YCfTbSTO4t..bsq8zdJ00Kse1RHaCvcOEdLK1br.tu\",\"email\":\"orgAdminB@orgB.com\",\"seedWithRole\":\"orgAdmin\",\"id\":5}",
+      "6": "{\"username\":\"storeAdminB1@orgB.com\",\"password\":\"$2a$10$0.i4GzfsjyEPFNJ/IH6xoe8bTgw6gdskFq1v3ySG5akvNg4zGpL6.\",\"email\":\"storeAdminB1@orgB.com\",\"seedWithRole\":\"storeAdmin\",\"id\":6}",
+      "7": "{\"username\":\"storeAdminB2@orgB.com\",\"password\":\"$2a$10$.Ia/LYxlYERvZXhT4GE/wuHVWKOQUSKaJH0i3Xft6CxDpn.cRVTAm\",\"email\":\"storeAdminB2@orgB.com\",\"seedWithRole\":\"storeAdmin\",\"id\":7}"
+    }
+  }
+}
